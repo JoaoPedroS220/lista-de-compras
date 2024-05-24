@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>lista</title>
+</head>
+<body>
+    <div class="to-do">
+    <header> 
+        <h1 class="titulo">lista de Compras</h1>
+        <button id="clearListBtn"><i class='bx bx-trash' style='color:#ff0202'></i></button>
+    </header>   
+    <hr>
+    <br>
+       <div class="insert-item">
+        <input type="text" id="textInput" class="insert-input" placeholder="adicionar nova tarefa">
+        <button type="submit" id="addTaskBtn"><i class='bx bxs-plus-circle' style='color:#01f14e'></i></button>
+       </div>
+       <table id="table">
+         <!--Tarefas são colocadas aqui-->
+       </table> 
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
